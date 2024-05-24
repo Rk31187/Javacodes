@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="la_page.css" />
+    <title>LandingPage</title>
+    <script type="text/javascript">
+        function hi()
+        {
+            document.getElementById("search").value="";
+            alert("login first");
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <p id="main">Shop<span class="full">.</span>here</p>
+        <table id="head">
+            <tr>
+                <td class="header">Home</td>
+                <td class="header">About</td>
+                <td class="header">Contact</td>
+                <td class="header"><button>Login</button></td>
+            </tr>
+        </table>
+    </header>
+    <div id="middle">
+        <p id="yes">All products <span class="text"> are available </span></p>
+        <p id="is">shop.here is a<span class="text"> shoping website</span> contains all genre products.<span class="text">Delivers every where.</span>This website is designed by Nunna Yashwanth </p>
+    </div>
+
+    <div id="cen">
+        <table>
+            <tr>
+                <td> <input id="search" type="text" placeholder="search here"> </td>
+                <td> <button onclick="hi()" id="start">search</button></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
